@@ -1,0 +1,44 @@
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--pale-blue);
+}
+
+.card {
+  width: 450px;
+  background-color: white;
+  color: var(--desaturated-blue);
+}
+
+.title {
+  color: black;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.container {
+  padding: 50px;
+}
+
+.order-description {
+  line-height: 25px;
+}
